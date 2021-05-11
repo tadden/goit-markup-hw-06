@@ -562,8 +562,10 @@ p {
 }
 
 .form-field {
-  position: relative;
   margin-bottom: 10px;
+}
+.input-and-svg {
+  position: relative;
 }
 .modal-title {
   font-weight: 700;
@@ -609,9 +611,9 @@ p {
 }
 .form-svg {
   position: absolute;
-  bottom: 20px;
+  top: 50%;
   left: 12px;
-  transform: translateY(50%);
+  transform: translateY(-50%);
 
   fill: var(--main-text-clr);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
