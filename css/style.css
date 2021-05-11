@@ -647,6 +647,7 @@ p {
   border-radius: 2px;
   margin-right: 7px;
 }
+
 .checkbox-label {
   display: block;
   margin-bottom: 30px;
@@ -660,6 +661,10 @@ p {
   background-repeat: no-repeat;
   background-color: var(--accent-clr);
   border-color: transparent;
+}
+
+.checkbox:focus + .checkbox-label::before {
+  border-color: var(--accent-clr);
 }
 
 .rules-link {
